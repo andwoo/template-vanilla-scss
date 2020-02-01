@@ -1,5 +1,5 @@
-import "../scss/main.scss";
+import '../scss/main.scss';
 
-let node : HTMLParagraphElement = document.createElement("p");
-node.textContent = "Hello There!";
-document.getElementById("app").appendChild(node);
+const node: HTMLParagraphElement = document.createElement('p');
+node.textContent = 'Hello There!';
+document.getElementById('app').appendChild(node);

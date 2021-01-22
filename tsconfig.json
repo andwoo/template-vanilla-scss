@@ -1,13 +1,19 @@
 {
   "compilerOptions": {
+    "outDir": "./dist",
     "sourceMap": true,
-    "noImplicitAny": false,
+    "noImplicitAny": true,
     "removeComments": true,
     "module": "commonjs",
     "target": "es5",
     "jsx": "react",
-    "allowJs": true,
-    "moduleResolution": "node",
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
     "skipLibCheck": true,
-  }
+    "forceConsistentCasingInFileNames": true
+  },
+  "exclude": [
+    "node_modules"
+  ]
 }

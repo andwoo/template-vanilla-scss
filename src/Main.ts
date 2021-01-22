@@ -1,5 +1,9 @@
-import '../scss/main.scss';
+import '../style/main.scss';
 
-const node: HTMLParagraphElement = document.createElement('p');
-node.textContent = 'Hello There!';
-document.getElementById('app').appendChild(node);
+function component() {
+  const element = document.createElement('div');
+  element.innerHTML = 'Hello There!';
+  return element;
+}
+
+document.body.appendChild(component());

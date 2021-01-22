@@ -1,5 +1,6 @@
 # Custom
-build/
+dist/
+.DS_Store
 
 # Logs
 logs
